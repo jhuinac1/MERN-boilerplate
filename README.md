@@ -1,14 +1,23 @@
-# Getting Started with Create React App
+# Getting Started with MERN boilerplate
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This boilerplate contains a skeleton for:
+- Express API using a NoSQL database
+- JSON web tokens are used for auth. 
+- CORS config for making API requests to the backend.
+- .env configuration.
+- api utility and proxy setup for easy axios calls to the backend.
+- redux store with devtools extension for the browser.
+- barebones firebase folder (work in progress).
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run dev`
 
-Runs the app in the development mode.\
+Runs the frontend and backend concurrently.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
